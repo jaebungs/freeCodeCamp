@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,400;0,700;0,900;1,300;1,700&display=swap');
+:root{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Merriweather', serif;
+}
+html,body {
+    margin:0;
+    padding:0;
+    text-align: center;
+}
+main {
+    margin: 70px 0;
+}
+#header {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    justify-content: space-between;
+    z-index: 10;
+}
+.logo {
+    flex-basis: 400px;
+    justify-content: center;
+    align-items: center;
+}
+#header-img {
+    width: 100%;
+    height: 80px;
+}
+
+#nav-bar {
+    display: flex;
+    flex-basis: 600px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: black;
+    padding: 1rem;
+    font-size: 1.3rem;
+    letter-spacing: 1px;
+}
+
+
+/* About section */
+.about {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    line-height: 2;
+    height: 700px;
+    background-color: #d7e3fc;
+    font-size: 1.3rem;
+}
+
+.title {
+    font-size: 3.5rem;
+    margin: 50px;
+    padding: 150px 0;
+}
+
+/* How section */
+.how {
+    background-color: #ccdbfd;
+    padding: 150px 0;
+}
+.email-form {
+    margin: 50px auto;
+    width: 70%;
+}
+.email {
+    width: 70%;
+    height: 40px;
+    padding: 10px;
+    font-family: 1.2rem;
+}
+#submit {
+    background-color: #308403;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    font-size: 1.4rem;
+    padding: 10px 35px;
+}
