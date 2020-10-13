@@ -15,12 +15,15 @@ main {
 }
 
 #header {
+    background: #fff;
     display: flex;
     position: fixed;
     width: 100%;
     top: 0;
     justify-content: space-between;
+    font-family: 'Oswald', sans-serif;
     z-index: 10;
+
 }
 
 @media (max-width: 900px) {
@@ -40,7 +43,6 @@ main {
     justify-content: center;
     align-items: center;
     margin: 10px 30px;
-    font-family: 'Oswald', sans-serif;
 }
 #header-img {
     width: 70px;
@@ -117,6 +119,14 @@ main {
     line-height: 1.5;
 }
 
+@media (max-width: 1024px) {
+    .email {
+        display: block;
+        width: 100%;
+        margin: 15px auto;
+    }
+}
+
 /* benefits section */
 .benefits {
     padding: 150px 0;
@@ -148,7 +158,7 @@ main {
 }
 
 .item-image {
-    width: 280px;
+    width: 350px;
     height: 350px;
 }
 
