@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700;800;900&display=swap');
+
+:root {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    line-height: 1.4;
+}
+
+main {
+    font-size: 1.8rem;
+    margin: 30px 30px 30px 380px;
+    width: auto;
+}
+
+p {
+    padding-left: 20px;
+}
+
+
+code {
+    background: #f4f4f4;
+    border: 1px solid #ddd;
+    border-left: 3px solid #1CC815;
+    display: block;
+    padding: 20px;
+    margin: 40px auto;
+    white-space: pre-wrap;
+
+    /* This will break lines!!! omg~~!! */
+    word-wrap: break-word;
+}
+
+.section-header {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 50px auto;
+}
+
+/* ----- navbar------ */
+
+.nav-header {
+    padding: 20px;
+    text-align: center;
+    font-weight: 500;
+    font-size: 3rem;
+}
+
+.nav-ul {
+    padding: 0 20px;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    height: 70vh;
+}
+
+.nav-ul li {
+    height: auto;
+    border-bottom: 1px solid #FFBE1E;
+    padding: 15px 10px;
+}
+
+.nav-link {
+    color: #000;
+    text-decoration: none;
+}
+
+#navbar {
+    background-color: #E4E4E4;
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    font-size: 1.7rem;
+}
+
+@media (max-width: 768px) {
+    main {
+        margin: 15px;
+    }
+    #navbar {
+        position: relative;
+        top: 0;
+        width: 100%;
+        text-align: center;
+    }
+}
